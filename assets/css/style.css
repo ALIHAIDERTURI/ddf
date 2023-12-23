@@ -1,0 +1,1110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;700;800&family=Montserrat+Subrayada&family=Montserrat:wght@100;200;300;400;500;600;700&family=Pangolin&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-family: 'Pangolin', cursive;
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 62.5%;
+    background-color: #ffff;
+
+
+}
+
+.main {
+    background-image: url(/assets/img/headimg.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    padding-bottom: 3rem;
+}
+
+
+.header-class {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo-img {
+    /* border: 1px solid red; */
+    /* margin: 1em 0 0 0; */
+    height: 11em;
+    /* padding-inline-start: 5em; */
+}
+
+.logo-anchor {
+    /* border: 1px solid green; */
+    margin: 1em 0 0 5em;
+    width: fit-content;
+}
+
+.nav-bar {
+    /* border: 2px solid green; */
+    margin-top: 3.5em;
+    height: fit-content;
+    width: 60%;
+}
+
+#toggle-btn,
+#cancel-btn {
+    display: none;
+    color: white;
+    font-size: 3em;
+    cursor: pointer;
+    float: right;
+    display: none;
+}
+
+#checkbox {
+    display: none;
+}
+
+.un-l {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 3em;
+    list-style: none;
+    font-size: 1.5em;
+    padding-inline-end: 4em;
+
+}
+
+.item-l {
+    /* display: block; */
+
+    color: #eee;
+    border-bottom: 2px solid transparent !important;
+    /* margin-top: 4em; */
+    text-align: center;
+}
+
+.anch-tag {
+    text-decoration: none;
+    color: #eee;
+    border: none;
+
+}
+
+.item-l:hover {
+    border-bottom: 2px solid #eee !important;
+    transition: .5s;
+}
+
+.text-mock {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6em;
+    margin-bottom: 10em;
+
+}
+
+.lh {
+    font-size: 2.5em;
+
+}
+
+.title-text {
+    /* border: 1px solid orange; */
+    color: #eee;
+    width: fit-content;
+    font-size: 1.5em;
+    font-weight: 400;
+    word-wrap: break-word;
+    width: 40%;
+    margin: 1em 0 0 6em;
+}
+
+.download-btn {
+    background-color: #359CB6;
+    border: none;
+    border-radius: 0.6em;
+    padding: 0.7em 1.4em 0.7em 1.4em;
+    color: #fcfcfc;
+    margin-top: 2em;
+    font-size: 1rem;
+}
+
+.download-btn:hover {
+    cursor: pointer;
+}
+
+.mockup {
+    display: flex;
+    margin-inline-end: 18em;
+    margin-top: -3rem;
+
+
+}
+
+/* ---------------cards-------------- */
+
+.cards {
+    /* margin-top: 10em; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    padding-inline: 4rem;
+    margin-bottom: 10em;
+    font-size: 1.5em;
+}
+
+.diet {
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 3em;
+    width: 30%;
+    height: auto;
+    margin-inline: 1rem;
+    border-radius: 1em;
+    background: #e3e6f4 url('../img/bubbles.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    box-shadow: rgba(50, 50, 93, 0.082) 0px 6px 12px -2px, rgba(0, 0, 0, 0.142) 0px 3px 7px -3px;
+}
+
+.diet:hover {
+    background-color: #8f9eff;
+    transition: .7s;
+}
+
+.diet-btn {
+    text-align: center;
+    justify-content: center;
+    color: #eee;
+    background-color: #4159fb;
+    padding: 0.7em 1.5em 0.7em 1.5em;
+    margin: 1rem;
+    border-radius: 3em;
+    border: none;
+    cursor: pointer;
+}
+
+.doctor {
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 3em;
+    height: auto;
+    width: 30%;
+    margin-inline: 1rem;
+    border-radius: 1em;
+    background: #e3e6f4 url('../img/bubbles.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    box-shadow: rgba(50, 50, 93, 0.082) 0px 6px 12px -2px, rgba(0, 0, 0, 0.142) 0px 3px 7px -3px;
+}
+
+.doctor:hover {
+    background-color: #d9e372;
+    transition: .7s;
+
+}
+
+.doctor-btn {
+    text-align: center;
+    justify-content: center;
+    color: #eee;
+    background-color: #cac531;
+    padding: 0.7em 1.5em 0.7em 1.5em;
+    margin: 1rem;
+    border-radius: 3em;
+    border: none;
+    cursor: pointer;
+}
+
+.family {
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 3em;
+    width: 30%;
+    height: auto;
+    margin-inline: 1rem;
+    border-radius: 1em;
+    background: #e3e6f4 url('../img/bubbles.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    box-shadow: rgba(50, 50, 93, 0.082) 0px 6px 12px -2px, rgba(0, 0, 0, 0.142) 0px 3px 7px -3px;
+
+}
+
+.family:hover {
+    background-color: #67e67c;
+    transition: .7s;
+
+}
+
+.family-btn {
+    text-align: center;
+    justify-content: center;
+    color: #eee;
+    background-color: #56AB2F;
+    padding: 0.7em 1.5em 0.7em 1.5em;
+    margin: 1rem;
+    border-radius: 3em;
+    border: none;
+    cursor: pointer;
+}
+
+/* --------------about us section----------------- */
+
+.h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+
+}
+
+.text-pic {
+    display: flex;
+    text-align: start;
+    justify-content: space-between;
+    padding: 3em 5em 10em 5em;
+}
+
+.about-text {
+    width: 100%;
+    padding: 3em;
+    /* font-size: 1.5em; */
+}
+
+.h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.about-p {
+    font-size: 1.5em;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.about-img {
+    width: 340px;
+}
+
+.bloodreport-btn {
+    background-color: #359cb6;
+    width: 30%;
+    margin-top: 2.5em;
+    padding: 0.8em 1.8em 0.8em 1.8em;
+    border: none;
+    border-radius: 0.5rem;
+    color: #ffff;
+    cursor: pointer;
+}
+
+/* ----------------expert team section--------------- */
+
+.expert-team {
+    margin-bottom: 5rem;
+}
+
+.exp-h2-p {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 200;
+    /* border: 1px solid red; */
+}
+
+.dr-profiles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem;
+    text-align: center;
+    align-content: center;
+}
+
+.prof1 .prof2 .prof3 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.dr-profiles img {
+    width: 340px;
+}
+
+.dr-names {
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: 0.8em;
+    margin-bottom: 1em;
+}
+
+.more-info-btn {
+    padding: 0.5em 3em 0.5em 3em;
+    border-radius: 2em;
+    background-color: #359CB6;
+    border: none;
+}
+
+.more-info-btn {
+    cursor: pointer;
+}
+
+.btn-border {
+    padding: 1em 0.2em 0.9em 0.2em;
+    border: 1px solid #359CB6;
+    border-radius: 2em;
+    margin-top: 1em;
+}
+
+.btn-border:hover {
+    border: 2px solid #359CB6;
+    transition: .09s;
+}
+
+/* -----------appointment---------- */
+
+.to-center-appoint-h3 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.appoint-rectangle {
+    /* border: 1px solid red; */
+    margin-bottom: 1em;
+    margin-top: -1em;
+    padding: 0.7em;
+    font-size: 2.2em;
+    background-color: #bcdee7;
+    font-weight: 600;
+    width: 75%;
+}
+
+.options-text {
+    /* border: 1px solid #4159fb; */
+    margin-bottom: 5em;
+    display: block;
+    font-size: 1.8em;
+    font-weight: 500;
+    text-align: center;
+    color: #595858;
+}
+
+.option-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin-bottom: 5em;
+    margin-top: -4em;
+}
+
+.msg-btn {
+    font-weight: 600;
+    padding: 0.8em 7em 0.8em 7em;
+    border-radius: 0.5em;
+    border: 1px solid #359CB6;
+    /* border: none; */
+    background-color: #ffff;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+}
+
+.msg-btn:hover {
+    background-color: #359CB6;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+
+
+.video-btn {
+    font-weight: 600;
+    padding: 0.8em 5.8em 0.8em 5.8em;
+    border-radius: 0.5em;
+    border: 1px solid #359CB6;
+    /* border: none; */
+    background-color: #ffff;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.video-btn:hover {
+    background-color: #359CB6;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+
+
+.msg-icon {
+    padding-left: 1em;
+    margin-bottom: -0.3em;
+}
+
+.video-icon {
+    padding-left: 1em;
+    margin-bottom: -0.3em;
+
+}
+
+/* -------------------footer styling------------------ */
+
+.footer {
+    background-image: url(/assets/img/footercover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+}
+
+.footer-main {
+    padding: 5em 0em 5em 6em;
+    margin-top: 4.7em;
+    display: flex;
+    width: 90%;
+    /* gap: 1em; */
+    justify-content: space-between;
+}
+
+.f-logo-text {
+    /* border: 1px solid red; */
+    width: fit-content;
+    width: auto;
+    color: #ffff;
+}
+
+.contacts {
+    /* border: 1px solid red; */
+    width: fit-content;
+    margin-left: 5em;
+
+}
+
+.contact-h3 {
+    margin-bottom: 1em;
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #0e71cc;
+}
+
+.location-i,
+.phone-i,
+.email-i {
+    margin-bottom: 1em;
+    color: #fcfcfc;
+}
+
+.fa-solid {
+    margin-right: 1em;
+    color: #fcfcfc;
+}
+
+.follows {
+    /* border: 1px solid red; */
+    margin-left: -5;
+    width: fit-content;
+}
+
+.follow-h3 {
+    margin-bottom: 1em;
+    margin-left: 2em;
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #0e71cc;
+}
+
+.fa-google-plus-g,
+.fa-twitter,
+.fa-linkedin-in {
+    margin-left: 1.2em;
+
+
+}
+
+.fa-brands {
+    /* margin-inline: 1em; */
+    align-items: center;
+    justify-content: center;
+    /* gap: 1em; */
+}
+
+
+/* -----------------------------media queries---------------------------- */
+@media(max-width: 1087px) {
+    .dr-profiles {
+        flex-wrap: wrap;
+
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        justify-content: normal;
+        /* margin-top: 3rem; */
+        margin-bottom: 5em;
+    }
+
+    .family {
+        margin-top: 2em;
+    }
+
+    .profile {
+        margin-top: 2rem;
+    }
+}
+
+
+@media(max-width: 992px) {
+    .nav-bar {
+        margin-top: 2em;
+        margin-right: 3em;
+        width: 100%;
+
+    }
+
+    .about-pic {
+        /* padding: ; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 7em;
+    }
+
+    .about-img {
+        width: 50%;
+    }
+
+
+    .d-none {
+        display: none !important;
+        transition: 1s all !important;
+    }
+
+    #toggle-btn {
+        display: block;
+        color: white;
+        font-size: 3em;
+        cursor: pointer;
+        float: right;
+        /* display: none; */
+    }
+
+    .main {
+        padding-bottom: 0em;
+    }
+
+    .footer {
+        padding: 0;
+        /* width: 95%; */
+        font-size: 1em;
+        margin-top: -4em;
+        /* margin-bottom: 5em; */
+
+    }
+
+    .footer-main {
+        width: 75%;
+        padding: 0;
+        margin-top: 18em;
+        gap: 2em;
+    }
+
+    .dr-profiles img {
+        width: 50%;
+    }
+
+    .more-info-btn {
+        padding: 0.5em 1em 0.5em 1em;
+        width: 100%;
+    }
+
+    .dr-profiles {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile {
+        margin-top: 2em;
+        width: 50%;
+    }
+
+    .dr-profiles img {
+        width: 100%;
+    }
+
+    .logo-img {
+        height: 8em;
+    }
+
+    .un-l {
+        position: absolute;
+        width: 100%;
+        height: 50vh;
+        background-color: black;
+        opacity: .4;
+        justify-content: center;
+        flex-direction: column;
+        top: 59px;
+        left: 0;
+        transition: 2s all;
+        padding: 0;
+
+    }
+
+    /* .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 5em;
+    }  */
+
+    .cards {
+        flex-wrap: wrap;
+        justify-content: normal;
+        /* margin-top: 3rem; */
+        margin-bottom: 5em;
+    }
+
+    .family {
+        margin-top: 2em;
+    }
+
+    /* .same-c {
+        width: 100%;
+        padding: 1em;
+        margin-top: 2em;
+        margin-left: 0;
+    } */
+
+    .text-mock {
+        margin-top: 1em;
+        padding-bottom: 5sem;
+    }
+
+    .mockup-img {
+        height: 410px;
+        width: 205px;
+    }
+
+    .mockup {
+        margin-inline-end: 7rem;
+        margin-top: 3em;
+    }
+
+    .title-text {
+        font-size: 0.8rem;
+        margin: 5em 0 0 6em;
+    }
+
+    .footer-main {
+        flex-direction: column;
+    }
+
+    .foot-logo {
+        height: 6em;
+    }
+
+    .about-p {
+        width: 100%;
+        /* padding: 2em; */
+        text-align: center;
+    }
+
+    .about-p,
+    .h3 {
+        text-align: center;
+    }
+
+    .about-text {
+        width: 100%;
+        padding: 4.5em;
+        text-align: center;
+
+    }
+
+
+    .text-pic {
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .appoint-rectangle {
+        font-size: 1.8em;
+    }
+
+    .options-text {
+        font-size: 1.5em;
+    }
+
+    .option-btns {
+        flex-direction: column;
+        /* width: 100%; */
+        margin-bottom: 0;
+    }
+
+    .msg-btn {
+        padding: 0.8em 4em 0.8em 4em;
+    }
+
+    .video-btn {
+        padding: 0.8em 2.6em 0.8em 2.6em;
+    }
+
+    .contacts {
+        margin: 0;
+    }
+
+    .follow-h3 {
+        margin-left: 0;
+    }
+
+    .follows {
+        padding-bottom: 2em;
+    }
+
+    .expert-p {
+        padding: 0em 3em 0 3em;
+    }
+
+    .bloodreport-btn {
+        width: 30%;
+    }
+
+    .h2 {
+        padding-inline: 2em;
+    }
+    
+    .footer{
+        margin-top: -6em;
+    }
+}
+
+
+@media (max-width:768px) {
+
+
+    .main {
+        padding-bottom: 0em;
+    }
+
+    .un-l {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        /* background-color: #5a0ecc; */
+        justify-content: center;
+    }
+
+
+    .item-l {
+        width: auto;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 5em;
+    }
+
+    .same-c {
+        width: 100%;
+        padding: 1em;
+        margin-top: 2em;
+        margin-left: 0;
+    }
+
+
+    #checkbox {
+        display: none;
+    }
+
+    .un-l {
+        position: absolute;
+        width: 100%;
+        height: 50vh;
+        background-color: black;
+        opacity: .4;
+        justify-content: center;
+        flex-direction: column;
+        top: 59px;
+        left: 0;
+        transition: 1s all;
+        padding: 0;
+
+    }
+
+
+    .logo-img {
+        height: 5em;
+    }
+
+    .mockup-img {
+        height: 310px;
+        width: 155px;
+    }
+
+    .profile {
+        margin-top: 2em;
+        width: 75%;
+    }
+
+    .dr-profiles img {
+        width: 100%;
+    }
+
+    .about-p {
+        width: 100%;
+        /* padding: 2em; */
+        text-align: center;
+    }
+
+    .about-p,
+    .h3 {
+        text-align: center;
+    }
+
+    .bloodreport-btn {
+        width: 40%;
+    }
+
+    .text-mock {
+        margin-top: 3em;
+        padding-bottom: 5rem;
+        margin-bottom: 2em;
+
+    }
+
+    .download-btn {
+        font-size: 1em;
+    }
+
+    .lh {
+        font-size: 2em;
+    }
+
+}
+
+@media(max-width:520px){
+    .text-mock{
+        padding-bottom: 9em;
+    }
+}
+
+@media (max-width:600px) {
+    .text-mock {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+    }
+
+    .mockup-img {
+        display: none;
+    }
+
+    .title-text {
+        font-size: 1.1em;
+        padding-bottom: 10em;
+        margin: 5em 0 0 6em;
+        width: 75%;
+    }
+
+    .bloodreport-btn {
+        width: 55%;
+    }
+
+    .un-l {
+        padding: 0;
+    }
+
+    .download-btn {
+        font-size: 1em;
+    }
+}
+
+@media (max-width:520px) {
+    .logo-anchor{
+        margin-left: 2em;
+    }
+
+    .about-text {
+        width: 100%;
+        padding: 2.5em;
+        text-align: center;
+    }
+    .expert-p {
+        padding: 0em 2em 0 2em;
+    }
+
+    .dr-profiles{
+        padding: 2.5em;
+    }
+    .appoint-rectangle{
+        width: 90%;
+    }
+    .title-text {
+        font-size: 1.1em;
+        padding-bottom: 10em;
+        margin: 5em 0 0 2.5em;
+        width: 90%;
+    }
+    .cards{
+        padding-inline: 1.8em;
+        
+    }
+    .h2{
+        padding-inline: 2em;
+    }
+    .un-l {
+        /* display: none; */
+        padding: 0;
+
+    }
+
+    .mockup-img {
+        display: none;
+    }
+
+
+    .text-mock {
+        margin-top: 2em;
+        padding-bottom: 8.5em;
+    }
+
+    .title-text {
+        font-size: 1.1em;
+        /* padding-bottom: 2em; */
+    }
+
+    .profile {
+        margin-top: 2em;
+        width: 100%;
+    }
+
+    .dr-profiles img {
+        width: 100%;
+    }
+
+    .about-p {
+        width: 100%;
+        /* padding: 2em; */
+        text-align: center;
+    }
+
+    .about-p,
+    .h3 {
+        text-align: center;
+    }
+
+    .bloodreport-btn {
+        align-items: center;
+        width: 100%;
+    }
+
+    .download-btn {
+        font-size: 1em;
+    }
+
+    .footer-main{
+        width: 90%;
+    }
+
+    .option-btns{
+        margin-bottom: 0;
+    }
+
+}
+
+@media (max-width: 370px) {
+    .logo-anchor{
+        margin-left: 5em;
+    }
+
+    .main {
+        background-size: 100% 100%;
+    }
+
+    .header-class {
+        padding-top: 1em;
+    }
+
+    .nav-bar {
+        margin-right: 1.5em;
+        /* margin-top: 3em; */
+    }
+
+    .text-mock {
+        padding-bottom: 2em;
+    }
+
+    .title-text {
+        font-size: 1.1em;
+        padding-bottom: 10em;
+        margin: 1em 0 0 2em;
+        width: 90%;
+    }
+
+    .cards {
+        padding-inline: 1em;
+    }
+
+    .h2 {
+        margin-top: -1em;
+    }
+
+    .about-text {
+        padding-inline: 1em;
+        padding-block: 1em;
+    }
+
+    .about-img {
+        width: 70%;
+        padding-top: 2em;
+    }
+
+    .expert-p {
+        padding: 0em 1em 0 1em;
+    }
+
+    .dr-profiles {
+        padding-inline: 1em;
+        padding-block: 1em;
+    }
+
+    .appoint-rectangle {
+        width: 90%;
+        margin-top: -2em;
+    }
+
+    .logo-img {
+        margin-left: -3.5em;
+    }
+
+    .footer-main {
+        width: 85%;
+    }
+
+    .option-btns{
+        margin-bottom: 0;
+    }
+
+    .msg-btn {
+        width: 90%;
+    }
+
+    .video-btn {
+        width: 90%;
+    }
+}
